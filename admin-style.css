@@ -1,0 +1,35 @@
+/*
+* Page and Post Description
+* admin-style.css
+*/
+.post-list_messagebox {
+position: absolute;
+    text-align: center;
+    width: 200px;
+    font-size: larger;
+    margin-left: calc(50% - 100px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.post-list_note-box {
+	border-bottom: 1px solid grey;
+}
+.post-list_note-box-label {
+	cursor: pointer;
+    color: royalblue;
+}
+.post-list_note-box-label:hover {
+    color: #D54E21;
+}
+.post-list_note-box-edit {
+	background: gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+.post-list_note-box-edit-content {
+	width: 100%;
+}
